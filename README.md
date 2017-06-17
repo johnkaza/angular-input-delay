@@ -6,3 +6,7 @@ Declare a dependency on the module
 ```javascript
 angular.module('myModule', ['ngInputDelay']);
 ```
+Insert input html
+```html
+<input type="text" name="example" ng-model="search_example" input-delay />
+```
