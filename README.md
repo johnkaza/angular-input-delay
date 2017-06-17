@@ -10,3 +10,8 @@ Insert input html
 ```html
 <input type="text" name="example" ng-model="search_example" input-delay />
 ```
+
+Default delay between user typing is 250 but you can always set your delay time by using it like this.
+```html
+<input type="text" name="example" ng-model="search_example" input-delay delay="450"/>
+```
