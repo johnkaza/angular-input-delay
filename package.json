@@ -1,0 +1,29 @@
+{
+  "name": "angular-input-delay",
+  "version": "1.0.0",
+  "description": "angular directive for input delay",
+  "main": "angular-input-delay.js",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnkaza/angular-input-delay.git"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "input",
+    "delay"
+  ],
+  "author": "john kazakopoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnkaza/angular-input-delay/issues"
+  },
+  "homepage": "https://github.com/johnkaza/angular-input-delay#readme"
+}
