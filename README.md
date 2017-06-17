@@ -12,10 +12,10 @@ angular.module('myModule', ['ngInputDelay']);
 ```
 Insert input html
 ```html
-<input type="text" name="example" ng-model="search_example" input-delay />
+<input type="text" name="example" ng-model="search_example" on-change="doSomething()" input-delay />
 ```
 
 Default delay between user typing is 250 but you can always set your delay time by using it like this.
 ```html
-<input type="text" name="example" ng-model="search_example" input-delay delay="450"/>
+<input type="text" name="example" ng-model="search_example" on-change="doSomething()" input-delay delay="450"/>
 ```
